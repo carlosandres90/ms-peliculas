@@ -155,7 +155,7 @@ public class PeliculasController {
 
     @PutMapping("/peliculas/{peliculaId}")
     @Operation(
-            operationId = "Modificar totalmente una pelicula",
+            operationId = "Modificar totalmente una pelicula.",
             description = "Operacion de escritura",
             summary = "Se modifica totalmente una pelicula.",
             requestBody = @io.swagger.v3.oas.annotations.parameters.RequestBody(
